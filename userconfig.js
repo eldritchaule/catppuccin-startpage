@@ -30,8 +30,9 @@ const default_configuration = {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      s: ["https://searx.fmhy.net/", "SearXNG"],
     },
-    default: "d",
+    default: "s",
   },
   keybindings: {
     "s": "search-bar",
@@ -44,7 +45,7 @@ const default_configuration = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/banner_09.gif",
+      background_url: "src/img/banners/banner_06.gif",
       categories: [
         {
           name: "bookmarks",
