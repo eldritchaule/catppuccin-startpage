@@ -17,20 +17,13 @@ const default_configuration = {
     format: "k:i p",
     icon_color: palette.maroon,
   },
-  additionalClocks: [
-    {
-      label: "UA",
-      timezone: "Europe/Kyiv",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
   ],
   search: {
     engines: {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
-      s: ["https://searx.fmhy.net/", "SearXNG"],
+      s: ["https://searx.fmhy.net/search", "SearXNG"],
     },
     default: "s",
   },
