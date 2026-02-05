@@ -51,9 +51,9 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "fmhy",
+              url: "https://fmhy.net/",
+              icon: "IconSkull",
               icon_color: palette.green,
             },
             {
